@@ -12,7 +12,7 @@ For example, with a 4-bit DAC and a 5 V reference:
 1010 → higher voltage
 1111 → maximum output voltage
 
-This project build a 4-bit DAC which means it can represent 16 different digital values (0000 through 1111)
+This project builds a 4-bit DAC which means it can represent 16 different digital values (0000 through 1111)
 
 Parts needed: 10k ohm resistors, 20k ohm resistors, LM1458 op-amp, Arduino Uno, Dual-rail power supply, Oscilloscope
 
