@@ -27,7 +27,7 @@ ex: if our binary number is 1010, voltage is 5[(1/2 * 1) + (1/4*0) + (1/8*1) + (
 So in an idealized DAC, 1010 should show a voltage of 3.125 V on Oscilloscope.
 4) The Voltage passes through an op-amp which acts as a high-impedance buffer. This means that the op-amp isolates the R-2R ladder from the load so that the DAC's
 output voltage does not significantly change when another circuit is connected.
-5) The arduino passes through all 16 4-bit combinations, creating a waveform on oscilloscope
+5) The arduino passes through all 16 4-bit combinations from 0000 to 1111 and back, creating a staircase waveform on oscilloscope
 
 | Binary | Decimal | Ideal Output Voltage |
 |--------|--------:|---------------------:|
